@@ -16,4 +16,5 @@ To start the project in dev run command "npm run dev"
 Source https://dev.to/jeanjavi/nuxt-eslint-9-typescript-prettier-configuration-guide-2024-4h2c
 To check errors run "npm run lint"
 To fix errors run "npm run lint:fix"
-
+### Deploy
+To deploy run "npm run deploy"
