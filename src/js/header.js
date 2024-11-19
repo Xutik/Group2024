@@ -1,16 +1,4 @@
-//nav - projects - team
-
-// header FORKKK
-
-// imgage?
-/* const hero = `
-    <header>
-        <div class="container">
-            <h1>FORKKKK</h1>
-        </div>
-    </header>` */
-
-export function createNav() {
+export default function createNav() {
   const headerElement = document.querySelector('header')
   const nav = document.createElement('nav')
   nav.innerHTML = `
