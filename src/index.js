@@ -1,7 +1,7 @@
 import './styles/reset.css'
 import './styles/style.css'
 
-import { createNav } from './js/header.js'
+import createNav from './js/header.js'
 import { createTeamSection } from './js/team.js';
 import renderProjects from './js/projects'
 
