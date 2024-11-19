@@ -30,4 +30,5 @@ export const projects = [
     'src/assets/img/calculator-kjw.png',
     'https://maybejod.github.io/ODIN-calculator/'
   )
+  
 ]
