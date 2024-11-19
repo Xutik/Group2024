@@ -8,7 +8,7 @@ const project = (title, techStack, author, image, link) => {
   }
 }
 
-export const projects = [
+const projects = [
   project(
     'Calculator',
     ['JavaScript', 'CSS', 'HTML'],
@@ -42,6 +42,20 @@ export const projects = [
     ['JavaScript', 'CSS', 'HTML'],
     'Klejda Mamaj',
     'src/assets/img/tictactoe-klej.png',
+    '#'
+  ),
+  project(
+    'Calculator',
+    ['JavaScript', 'CSS', 'HTML'],
+    'Kseniia Prakhova',
+    'src/assets/img/calculator-xutik.jpg',
+    '#'
+  ),
+  project(
+    'Tic-Tac-Toe',
+    ['JavaScript', 'CSS', 'HTML'],
+    'Kseniia Prakhova',
+    'src/assets/img/tictactoe-xutik.jpg',
     '#'
   )
 ]
