@@ -17,6 +17,13 @@ export const projects = [
     'https://kevingarciamartin.github.io/calculator/'
   ),
   project(
+    'Fjordsmaken',
+    ['Webpack', 'JavaScript', 'CSS', 'HTML'],
+    'Kevin Garcia Martin',
+    'src/assets/img/restaurant-kgm.PNG',
+    'https://kevingarciamartin.github.io/restaurant-page/'
+  ),
+  project(
     'Etch-A-Sketch',
     ['JavaScript', 'CSS', 'HTML'],
     'Kiattisak Jod Wongphayak',
