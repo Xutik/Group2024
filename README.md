@@ -18,3 +18,5 @@ To check errors run "npm run lint"
 To fix errors run "npm run lint:fix"
 ### Deploy
 To deploy run "npm run deploy"
+### Sync Branch
+To sync branch with main run "npm run sync-branch"
