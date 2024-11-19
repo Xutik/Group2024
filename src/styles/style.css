@@ -110,11 +110,11 @@ main {
             max-width: 100%;
             border-radius: 1rem;
             box-shadow: 4px 6px 11px 0px rgba(181, 181, 182, 0.87);
+            overflow: clip;
             .card-img {
-                height: 250px;
-                border-top-left-radius: 1rem;
-                border-top-right-radius: 1rem;
-                background-color: var(--shade-color);
+                width: 100%;
+                aspect-ratio: 2;
+                object-fit: cover;
             }
             .card-text {
                 padding: 1rem;
