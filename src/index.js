@@ -1,20 +1,15 @@
-import './styles/reset.css';
-import './styles/style.css';
+import './styles/reset.css'
+import './styles/style.css'
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import { createNav } from './js/header.js'
+import { createTeamSection } from './js/team.js';
 import renderProjects from './js/projects'
 
-renderProjects();
+document.addEventListener('DOMContentLoaded', () => {
+    createNav()
+    renderProjects();
+  
+    const main = document.querySelector('main') || document.body;
+    const team = createTeamSection();
+    main.appendChild(team);
+});

@@ -28,67 +28,46 @@ body {
 
 /* header section-----------------------------------------------------*/
 header {
-    position: relative;
     width: 100dvw;
-    padding-top: 3rem;
-    display: flex;
-    justify-content: center;
-    &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 110%;
-        background-color: var(--shade-color);
-        z-index: -2;
-        clip-path: polygon(0 0, 100% 0, 100% 60%, 0% 100%);
-    }
-    .container {
+    padding-top: 1rem;
+    nav {
         display: flex;
+        justify-content: center;
         align-items: center;
-
-        h1 {
-            font-size: var(--fs-large);
-            color: var(--main-blue);
-            text-align: left;
-            position: absolute;
-            width: 350px;
-            margin: 0;
-            bottom: 10px;
-            z-index: 3;
-        }
-        .header-img {
-            min-width: 350px;
-            max-width: 350px;
-            z-index: 1;
-            .profile-pic {
-                max-width: 100%;
-                height: auto;
-            }
-        }
-        .about {
-            background-color: var(--main-white);
-            color: #000000;
-            padding: 0 1rem 1rem 1rem;
-            border-radius: 1rem;
-            box-shadow: 4px 6px 11px 0px rgba(181, 181, 182, 0.87);
-            h2 {
-                font-size: var(--fs-medium);
-            }
-            p {
-                font-size: var(--fs-small);
-                line-height: 1.5;
-            }
-            .icon-container {
+        .container {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .logo-text {
                 display: flex;
-                justify-content: end;
+                .nav-logo{
+                    width: 1.5rem;
+                    height: auto;
+                }
+                .nav-text {
+                    font-size: 1.5rem;
+                }
+            }
+            .logo-text:hover {
+                color: var(--main-blue);
+                cursor: pointer;
+            }
+            ul {
+                display: flex;
                 gap: 1rem;
-                    img { 
-                        width: 2rem;
-                        height: auto;
-                        min-width: 0;
+                padding-left: 0;
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                        font-size: 1rem;
+                        color: #000000;
                     }
+                    a:hover {
+                        color: var(--main-blue);
+                    }
+                }
             }
         }
     }
