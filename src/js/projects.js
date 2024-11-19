@@ -3,6 +3,7 @@ import calculatorKJW from '../assets/img/calculator-kjw.png'
 import calculatorXutik from '../assets/img/calculator-xutik.jpg'
 import etchASketchKJW from '../assets/img/etch-a-sketch-kjw.png'
 import restaurantKGM from '../assets/img/restaurant-kgm.PNG'
+import restaurantKlejda from '../assets/img/restaurant-klej.png'
 import tictactoeKlejda from '../assets/img/tictactoe-klej.png'
 import tictactoeXutik from '../assets/img/tictactoe-xutik.jpg'
 
@@ -56,7 +57,7 @@ const projects = [
     'Restaurant',
     ['Webpack', 'JavaScript', 'CSS', 'HTML'],
     'Klejda Mamaj',
-    '',
+    restaurantKlejda,
     'https://github.com/klejda59/restaurant-page.git'
   ),
   project(
@@ -110,29 +111,4 @@ export default function renderProjects() {
 
     gridContainer.appendChild(card)
   })
-  // <h2>Projects</h2>
-  //       <div class="grid-container">
-  //           <div class="card">
-  //               <div class="card-img"></div>
-  //               <div class="card-text">
-  //                   <div class="card-title">
-  //                       <h3>Project name</h3>
-  //                       <div class="card-link">
-  //                           <a href="https://github.com/MaybeJod" target="_blank">
-  //                               <img
-  //                                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-  //                           </a>
-  //                           <a href="https://codepen.io/notjod" target="_blank">
-  //                               <img
-  //                                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/codepen/codepen-original.svg" />
-  //                           </a>
-  //                       </div>
-  //                   </div>
-  //                   <p>
-  //                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-  //                       Mollitia, laborum!
-  //                   </p>
-  //               </div>
-  //           </div>
-  //       </div>
 }
