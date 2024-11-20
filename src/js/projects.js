@@ -47,20 +47,6 @@ const projects = [
     'https://maybejod.github.io/ODIN-calculator/'
   ),
   project(
-    'Tic-Tac-Toe',
-    ['JavaScript', 'CSS', 'HTML'],
-    'Klejda Mamaj',
-    tictactoeKlejda,
-    'https://github.com/klejda59/tictactoe.git'
-  ),
-  project(
-    'Restaurant',
-    ['Webpack', 'JavaScript', 'CSS', 'HTML'],
-    'Klejda Mamaj',
-    restaurantKlejda,
-    'https://github.com/klejda59/restaurant-page.git'
-  ),
-  project(
     'Calculator',
     ['JavaScript', 'CSS', 'HTML'],
     'Kseniia Prakhova',
@@ -73,7 +59,21 @@ const projects = [
     'Kseniia Prakhova',
     tictactoeXutik,
     'https://xutik.github.io/TicTacToe/'
-  )
+  ),
+  project(
+    'Tic-Tac-Toe',
+    ['JavaScript', 'CSS', 'HTML'],
+    'Klejda Mamaj',
+    tictactoeKlejda,
+    'https://klejda59.github.io/tictactoe/'
+  ),
+  project(
+    'Restaurant',
+    ['Webpack', 'JavaScript', 'CSS', 'HTML'],
+    'Klejda Mamaj',
+    restaurantKlejda,
+    'https://github.com/klejda59/restaurant-page.git'
+  ),
 ]
 
 export default function renderProjects() {
