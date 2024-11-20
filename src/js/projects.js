@@ -99,7 +99,7 @@ export default function renderProjects() {
 
   gridContainer.classList.add('grid-container')
 
-  projectsSectionTitle.textcontent = 'Projects'
+  projectsSectionTitle.textContent = 'Projects'
 
   projectsSection.appendChild(projectsSectionTitle)
   projectsSection.appendChild(gridContainer)
