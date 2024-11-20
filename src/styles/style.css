@@ -30,11 +30,18 @@ body {
 header {
     width: 100dvw;
     padding-top: 1rem;
+    background-color: var(--main-white);
+    position: fixed;
+
     nav {
         display: flex;
         justify-content: center;
         align-items: center;
+
         .container {
+
+       
+
             width: 100%;
             display: flex;
             align-items: center;
@@ -75,6 +82,45 @@ header {
 
 /* main section---------------------------------------------------------------- */
 main {
+    #hero {
+        min-height: 100svh;
+        display: flex;
+        align-items: center;
+        margin-top: 10rem;
+        flex-direction: column;
+        .hero-heading {
+            display: flex;
+            .hero-logo {
+                width: 5rem;
+                height: auto;
+            }
+            h1 {
+                font-size: 5rem;
+            }
+        }
+        h2 {
+            font-size: 2rem;
+        }
+        .hero-button {
+            margin-top: 6rem;
+            font-size: 2rem;
+            border-radius: 100px;
+            padding: 1rem;
+            background-color: var(--main-blue);
+            border-style: none;
+            width: 6em;
+            transition: 200ms ease;
+            a {
+                color: var(--main-white);
+                text-decoration: none;
+            }
+        }
+        .hero-button:hover {
+            transform: scale(1.2);
+            
+        }
+    }
+
     width: 100%;
     h2 {
         font-size: var(--fs-medium);
