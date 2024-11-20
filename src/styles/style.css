@@ -33,6 +33,7 @@ header {
     padding-top: 1rem;
     background-color: var(--main-white);
     position: fixed;
+    z-index: 999;
 
     nav {
         display: flex;
@@ -87,7 +88,7 @@ main {
         min-height: 100svh;
         display: flex;
         align-items: center;
-        margin-top: 10rem;
+        justify-content: center;
         flex-direction: column;
         .hero-heading {
             display: flex;
