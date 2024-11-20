@@ -83,12 +83,12 @@ const projects = [
     'https://github.com/klejda59/tictactoe'
   ),
   project(
-    'Restaurant',
+    'Etch-a-sketch',
     ['Webpack', 'JavaScript', 'CSS', 'HTML'],
     'Klejda Mamaj',
-    restaurantKlejda,
-    'https://klejda59.github.io/restaurant-page/',
-    'https://github.com/klejda59/restaurant-page.git'
+    EtchASketchKlejda,
+    'https://klejda59.github.io/etch-a-sketch/',
+    'https://github.com/klejda59/etch-a-sketch.git'
   )
 ]
 
