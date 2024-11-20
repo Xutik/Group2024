@@ -185,6 +185,12 @@ main {
   }
 }
 
+
+.grid-container-team {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)) !important;
+} 
+
 /* footer---------------------------------------------------------- */
 footer {
   background-color: var(--shade-color);
