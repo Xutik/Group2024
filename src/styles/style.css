@@ -83,6 +83,8 @@ header {
 
 /* main section---------------------------------------------------------------- */
 main {
+  display: grid;
+  gap: 10rem;
 
     #hero {
         min-height: 100svh;
@@ -201,6 +203,7 @@ footer {
   display: flex;
   justify-content: center;
   color: var(--main-white);
+  margin-top: 10rem;
   .container {
     width: 100%;
     display: flex;
