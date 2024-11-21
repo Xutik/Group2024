@@ -38,22 +38,32 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
     .container {
       width: 100%;
       display: flex;
       align-items: center;
       justify-content: space-between;
       .logo-text {
-        display: flex;
-        .nav-logo {
-          width: 1.5rem;
-          height: auto;
-        }
-        .nav-text {
-          font-size: 1.5rem;
+    
+        a {
+          text-decoration: none;
+          color: #000000;
+          display: flex;
+          transition: color 200ms ease, fill 200ms ease;
+          &:hover {
+            color: var(--main-blue);
+            fill: var(--main-blue);
+          }
+          .nav-logo {
+            width: 1.5rem;
+            height: auto;
+          }
+          .nav-text {
+            font-size: 1.5rem;
+          }
         }
       }
+
       .logo-text:hover {
         color: var(--main-blue);
         cursor: pointer;
