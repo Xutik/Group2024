@@ -50,8 +50,8 @@ export default function createTeamSection() {
   const title = document.createElement('h2')
   const about = document.createElement('p')
   title.textContent = 'Team'
-  about.textContent =
-    "We're a team of 4Ks from FED2026 Hyper Island. We have experience in creating Odin Projects using our knowledge in HTML, CSS and Javascript."
+  // about.textContent =
+  //   "We're a team of 4Ks from FED2026 Hyper Island. We have experience in creating Odin Projects using our knowledge in HTML, CSS and Javascript."
 
   descriptionContainer.appendChild(title)
   descriptionContainer.appendChild(about)
