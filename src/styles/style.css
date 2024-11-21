@@ -113,6 +113,8 @@ main {
       font-size: 2rem;
     }
     .hero-button {
+      color: var(--main-white);
+      text-decoration: none;
       margin-top: 6rem;
       font-size: 2rem;
       border-radius: 100px;
@@ -121,10 +123,7 @@ main {
       border-style: none;
       width: 6em;
       transition: 200ms ease;
-      a {
-        color: var(--main-white);
-        text-decoration: none;
-      }
+      
     }
     .hero-button:hover {
       transform: scale(1.2);
