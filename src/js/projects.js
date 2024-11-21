@@ -3,7 +3,7 @@ import calculatorKJW from '../assets/img/calculator-kjw.png'
 import calculatorXutik from '../assets/img/calculator-xutik.jpg'
 import etchASketchKJW from '../assets/img/etch-a-sketch-kjw.png'
 import restaurantKGM from '../assets/img/restaurant-kgm.PNG'
-import restaurantKlejda from '../assets/img/restaurant-klej.png'
+import etchASketchKlejda from '../assets/img/etch-a-sketch-klej.png'
 import tictactoeKlejda from '../assets/img/tictactoe-klej.png'
 import tictactoeXutik from '../assets/img/tictactoe-xutik.jpg'
 
@@ -86,7 +86,7 @@ const projects = [
     'Etch-a-sketch',
     ['Webpack', 'JavaScript', 'CSS', 'HTML'],
     'Klejda Mamaj',
-    EtchASketchKlejda,
+    etchASketchKlejda,
     'https://klejda59.github.io/etch-a-sketch/',
     'https://github.com/klejda59/etch-a-sketch.git'
   )
