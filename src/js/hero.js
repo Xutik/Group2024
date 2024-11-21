@@ -6,7 +6,7 @@ export default function createHeroSection() {
             <h1>Forkkkk Studios</h1>
         </div>
         <h2>The place where you forkkkk</h2>
-        <button class="hero-button"><a href="#contact">Book a call</a></button>
+        <a href="#contact"><button class="hero-button">Book a call</button></a>
         `
     
     heroElement.innerHTML = createHero
