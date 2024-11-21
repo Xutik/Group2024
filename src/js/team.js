@@ -33,11 +33,14 @@ export  default function createTeamSection() {
   const teamSection = document.createElement('section')
   teamSection.classList.add('Forkkkk', 'FED', 'team')
   const descriptionContaine = document.createElement('div')
-  const title = document.createElement('h2')
-  title.textContent =
-    "We're a team of 4Ks from FED2026 HYper Island. We have experience in creating Odin Projects using our knowledge in HTML, CSS and Javascript."
+  const title = document.createElement("h2")
+  const about = document.createElement('p')
+  title.textContent = "Team"
+  about.textContent =
+    "We're a team of 4Ks from FED2026 Hyper Island. We have experience in creating Odin Projects using our knowledge in HTML, CSS and Javascript."
 
   descriptionContaine.appendChild(title)
+  descriptionContaine.appendChild(about)
   teamSection.appendChild(descriptionContaine)
 
   const teamMembersContainer = document.createElement('div')
