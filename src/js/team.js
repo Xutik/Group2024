@@ -16,7 +16,7 @@ function teamMember(name, description, email, github, avatar) {
 export const team = [
   teamMember(
     'Kevin Garcia Martin',
-    '194cm',
+    'Beerio Kart champ',
     'kevin.garcia@hyperisland.se',
     'https://github.com/kevingarciamartin',
     kevin
