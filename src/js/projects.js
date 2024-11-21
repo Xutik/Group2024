@@ -4,6 +4,7 @@ import calculatorXutik from '../assets/img/calculator-xutik.jpg'
 import etchASketchKJW from '../assets/img/etch-a-sketch-kjw.png'
 import restaurantKGM from '../assets/img/restaurant-kgm.PNG'
 import etchASketchKlejda from '../assets/img/etch-a-sketch-klej.png'
+import tictactoeKGM from '../assets/img/tictactoe-kgm.jpg'
 import tictactoeKlejda from '../assets/img/tictactoe-klej.png'
 import tictactoeXutik from '../assets/img/tictactoe-xutik.jpg'
 
@@ -43,6 +44,14 @@ const projects = [
     'https://github.com/kevingarciamartin/restaurant-page'
   ),
   project(
+    'Tic Tac Toe',
+    ['JavaScript', 'CSS', 'HTML'],
+    'Kevin Garcia Martin',
+    tictactoeKGM,
+    'https://kevingarciamartin.github.io/tic-tac-toe/',
+    'https://github.com/kevingarciamartin/tic-tac-toe'
+  ),
+  project(
     'Etch-A-Sketch',
     ['JavaScript', 'CSS', 'HTML'],
     'Kiattisak Jod Wongphayak',
@@ -67,7 +76,7 @@ const projects = [
     'https://github.com/Xutik/calculator'
   ),
   project(
-    'Tic-Tac-Toe',
+    'Tic Tac Toe',
     ['JavaScript', 'CSS', 'HTML'],
     'Kseniia Prakhova',
     tictactoeXutik,
@@ -75,7 +84,7 @@ const projects = [
     'https://github.com/Xutik/TicTacToe'
   ),
   project(
-    'Tic-Tac-Toe',
+    'Tic Tac Toe',
     ['JavaScript', 'CSS', 'HTML'],
     'Klejda Mamaj',
     tictactoeKlejda,
